@@ -1,9 +1,11 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
+
+	"github.com/yafred/a-go-module/internal/hello"
 )
 
 func main() {
-     fmt.Println("Hello!")
+	fmt.Println(hello.Greetings())
 }
